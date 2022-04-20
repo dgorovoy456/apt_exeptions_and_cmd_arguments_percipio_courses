@@ -1,7 +1,7 @@
 # print(variable)
 
 # Traceback (most recent call last):
-#   File "/home/dhorovyi/percipio_training/apt_exeptions_and_cmd_arguments_percipio_courses/src/exceptions.py", line 2, in <module>
+#   File "/home/dhorovyi/percipio_training/apt_exeptions_and_cmd_arguments_percipio_courses/src/exceptions_1.py", line 2, in <module>
 #     print(variable)
 # NameError: name 'variable' is not defined
 
@@ -24,7 +24,7 @@ print('######################################################################\n'
 # f = open('nonexistent_file')
 #
 # Traceback (most recent call last):
-#   File "/home/dhorovyi/percipio_training/apt_exeptions_and_cmd_arguments_percipio_courses/src/exceptions.py", line 24, in <module>
+#   File "/home/dhorovyi/percipio_training/apt_exeptions_and_cmd_arguments_percipio_courses/src/exceptions_1.py", line 24, in <module>
 #     f = open('nonexistent_file')
 # FileNotFoundError: [Errno 2] No such file or directory: 'nonexistent_file
 
@@ -41,7 +41,7 @@ print('######################################################################\n'
 #
 # Please enter a numberew
 # Traceback (most recent call last):
-#   File "/home/dhorovyi/percipio_training/apt_exeptions_and_cmd_arguments_percipio_courses/src/exceptions.py", line 40, in <module>
+#   File "/home/dhorovyi/percipio_training/apt_exeptions_and_cmd_arguments_percipio_courses/src/exceptions_1.py", line 40, in <module>
 #     input_var = int(input('Please enter a number'))
 # ValueError: invalid literal for int() with base 10: 'ew'
 
