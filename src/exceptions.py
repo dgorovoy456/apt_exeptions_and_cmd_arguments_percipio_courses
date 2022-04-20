@@ -34,3 +34,44 @@ except FileNotFoundError:
     print('No such file')
 except:
     print('An unknown error has occurred')
+
+print('######################################################################\n')
+
+# input_var = int(input('Please enter a number'))
+#
+# Please enter a numberew
+# Traceback (most recent call last):
+#   File "/home/dhorovyi/percipio_training/apt_exeptions_and_cmd_arguments_percipio_courses/src/exceptions.py", line 40, in <module>
+#     input_var = int(input('Please enter a number'))
+# ValueError: invalid literal for int() with base 10: 'ew'
+
+while True:
+    try:
+        input_var = int(input('Please enter a number'))
+        break
+    except ValueError:
+        print('Oops! That was not a valid number. Try again...')
+
+print('######################################################################\n')
+
+
+attempts = 0
+
+while True:
+    try:
+        input_var = input('Please enter a number')
+        input_var = int(input_var)
+
+    except ValueError:
+        attempts += 1
+
+        if attempts < 3:
+            print('Oops! That was not a valid number. Try again...')
+        else:
+            print('You really want to input string? Fine we`ll handle it')
+            input_var = str(input_var)
+            print(input_var)
+            break
+
+
+
